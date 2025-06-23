@@ -1,0 +1,164 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style Home Page */
+/* Style Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 75px;
+}
+
+.navbar-right ul li {
+  list-style: none;
+  padding: 30px;
+  display: inline-block;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo img {
+  max-height: 65px;
+  border-radius: 80%;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.navbar a:hover {
+  background-color: lavender;
+  border-radius: 75%;
+  transition: background-color 0.5s ease;
+}
+/* Penutup Navbar */
+
+/* Awal Jumbotron */
+
+/* Style Jumbotron */
+.jumbotron img {
+  display: block;
+  margin: 0 auto;
+}
+/* Akhir */
+
+/* Content */
+.content {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+.content {
+  margin-top: 10px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.content h1 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  text-align: justify;
+}
+/* Akhir */
+
+/* Budaya */
+.budaya {
+  background: #fff;
+  text-align: justify;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.budaya h2 {
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+.budaya img {
+  height: 250px;
+  padding: 10px;
+}
+/* Akhir */
+
+/* Wisata */
+.wisata {
+  background: #fff;
+  text-align: justify;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.wisata h2 {
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+.wisata img {
+  height: 250px;
+  padding: 10px 0;
+}
+/* Akhir */
+
+/* Awal Footer */
+.footer {
+  margin-top: 50px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+/* Akhir Footer */
+/* Akhir Home Page */
+
+/* Style Untuk Form Hotel */
+.container {
+  margin-left: 35px;
+}
+.container h1 {
+  margin: 15px 0px;
+}
+.hotel {
+  width: 1100px;
+  height: 250px;
+  background-color: #fff;
+  margin: 20px 10px;
+  padding: 5px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: justify;
+}
+.hotel h3 {
+  padding: 5px;
+}
+
+.hotel img {
+  width: 350px;
+  float: left;
+  padding: 5px;
+}
+
+/* Akhir */
